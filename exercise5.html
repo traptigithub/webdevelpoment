@@ -12,6 +12,9 @@
         --bxone: rgb(235, 12, 139);
         --bxtwo: rgb(14, 165, 215);
       }
+      body{
+        background-color: var(--backcolor);
+      }
       * {
         margin: 0;
         padding: 0;
@@ -47,14 +50,13 @@
       }
       .container {
         display: flex;
-        background-color: var(--backcolor);
       }
 
       .box {
         width: 50vw;
-        height: 200vh;
+        height: 250vh;
         border: 2px solid blue;
-        margin: 23px;
+        margin: 25px;
       }
       .box1 {
         background-color: var(--bxone);
@@ -78,6 +80,13 @@
         padding: 35px;
         text-align: center;
         font-size: 55px;
+      }
+      img{
+        position: fixed;
+        bottom: 0px;
+        right: 30px;
+
+
       }
       
       
@@ -117,11 +126,12 @@
         reiciendis dolores tempore?
       </div>
     </div>
+    
     <div>
       <p>Welcome to the Sigma Web Development Express</p>
     </div>
 
-    <svg height="100" width="100">
+    <!-- <svg height="100" width="100">
       <circle
         cx="30"
         cy="30"
@@ -130,8 +140,9 @@
         stroke-width="3"
         fill="red"
       />
-    </svg>
-    <img src="goku-logol.jpg" alt="goku" width="62px" >
+    </svg> -->
+
+    <img src="goku.png" alt="goku" width="62px" >
     
     <footer>foot</footer>
   </body>
