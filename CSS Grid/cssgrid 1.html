@@ -15,17 +15,23 @@
         border: 2px solid red;
         height: 55px;
         width: 55px;
-
       }
-      .item-4{
-        grid-row:1/2 ;
-        grid-column:1/2 ;
+      .item-4 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+      }
+      .item-1 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+
+        /* grid-row-start: 1;
+        grid-row-end: 2;    or you can do like this as well*/
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="item">1</div>
+      <div class="item item-1">1</div>
       <div class="item">2</div>
       <div class="item">3</div>
       <div class="item item-4">4</div>
