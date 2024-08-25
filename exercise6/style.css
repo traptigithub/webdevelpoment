@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+div img {
+  margin: 24px 100px;
+  cursor: pointer;
+}
+header {
+  display: flex;
+}
+li:hover {
+  color: rgb(95, 94, 94);
+}
+a {
+  /* apply anyone either margin or position */
+
+  position: relative;
+  left: 140px;
+  top: -76px;
+  /* margin: -34px -131px; */
+}
+div nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 45px 120px;
+
+  height: 34px;
+  width: 790px;
+  /* background-color: aqua; */
+  /* border: 2px solid black; */
+}
+li {
+  list-style: none;
+  display: inline;
+  margin: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
