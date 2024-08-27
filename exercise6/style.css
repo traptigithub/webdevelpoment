@@ -1,39 +1,62 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+div a img{
+    height:58px ;
+    width: 180px;
+    padding-right: 380px;
+    padding-left: 130px;
+    padding-top: 8px;
 }
-div img {
-  margin: 24px 100px;
-  cursor: pointer;
+nav li {
+    list-style: none;
+    
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
 }
-header {
-  display: flex;
+.container{
+    /* display: flex; */
+    /* justify-content: center; */
+    gap: ;
 }
-li:hover {
-  color: rgb(95, 94, 94);
+.line{
+    font-size: 20px;
 }
-a {
-  /* apply anyone either margin or position */
+h1 img{
+    height: 38px;
+    width: 130px;
+}
 
-  position: relative;
-  left: 140px;
-  top: -76px;
-  /* margin: -34px -131px; */
-}
-div nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  margin: 45px 120px;
 
-  height: 34px;
-  width: 790px;
-  /* background-color: aqua; */
-  /* border: 2px solid black; */
+h1{
+    font-size: 48px;
+    font-weight: 360;
+    padding-top: 60px;
 }
-li {
-  list-style: none;
-  display: inline;
-  margin: 15px;
-  padding: 15px;
-  cursor: pointer;
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+}
+h1,h3{
+    line-height: 1.3em;
+    color: #222222;
+}
+h3{
+
+    padding-bottom: 14px;
+}
+
+ul{
+    display: flex;
+    gap:30px;
+
+}
+nav{
+    display: flex;
+}
+ul li img{
+height: 45px;
+width: 48px;
+}
+li svg{
+    height: 16px;
 }
