@@ -13,13 +13,32 @@ nav li {
     align-items: center;
     
 }
+.bluebox{
+    height: 50px;
+    width: 285px;
+    background-color: #07ccea;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+
+    /* border: 2px solid black; */
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
 .container{
     /* display: flex; */
     /* justify-content: center; */
     gap: ;
 }
 .line{
-    font-size: 20px;
+    font-size: 25px;
 }
 h1 img{
     height: 38px;
@@ -37,7 +56,7 @@ body{
     color: #222;
 }
 h1,h3{
-    line-height: 1.3em;
+    /* line-height: 1.3em; */
     color: #222222;
 }
 h3{
@@ -54,8 +73,8 @@ nav{
     display: flex;
 }
 ul li img{
-height: 45px;
-width: 48px;
+height: 48px;
+width: 50px;
 }
 li svg{
     height: 16px;
