@@ -39,13 +39,17 @@ nav li {
     align-content: center;
     row-gap: 35px;
 
+
 }
 .line{
     font-size: 25px;
+   width: 995px;
+   text-align:center;
 }
 h1 img{
     height: 38px;
     width: 130px;
+    cursor: pointer;
 }
 
 
@@ -92,5 +96,6 @@ span:first-child{
     
 }
 .lastline{
-    
+    padding-left: 250px;
+    padding-top: 40px;
 }
