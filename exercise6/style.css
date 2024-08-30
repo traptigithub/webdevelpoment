@@ -15,8 +15,8 @@ nav li {
 }
 .bluebox{
     height: 50px;
-    width: 285px;
-    background-color: #07ccea;
+    width: 290px;
+    background-color: #07bfdb;
     color: #ffffff;
     border-radius: 6px;
     font-weight: bold;
@@ -33,9 +33,12 @@ nav li {
 
 }
 .container{
-    /* display: flex; */
-    /* justify-content: center; */
-    gap: ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 35px;
+
 }
 .line{
     font-size: 25px;
@@ -78,4 +81,16 @@ width: 50px;
 }
 li svg{
     height: 16px;
+}
+span img {
+height: 65px;
+width: 125px;
+
+}
+span:first-child{
+    font-size: 25px;
+    
+}
+.lastline{
+    
 }
