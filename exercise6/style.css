@@ -32,12 +32,16 @@ nav li {
     text-transform: uppercase;
 
 }
+.box{
+    display: flex;
+    justify-content: center;
+}
 .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    row-gap: 35px;
+    /* row-gap: 25px; */
 
 
 }
@@ -45,6 +49,7 @@ nav li {
     font-size: 25px;
    width: 995px;
    text-align:center;
+   padding-bottom: 30px;
 }
 h1 img{
     height: 38px;
@@ -93,9 +98,15 @@ width: 125px;
 }
 span:first-child{
     font-size: 25px;
+    /* padding-top: 10px; */
+
     
 }
+
 .lastline{
-    padding-left: 250px;
-    padding-top: 40px;
+    /* padding-left: 250px;
+    padding-top: 40px; */
+    display: flex;
+   
+    align-items: center;
 }
