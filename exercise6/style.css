@@ -1,112 +1,101 @@
-div a img{
-    height:58px ;
-    width: 180px;
-    padding-right: 380px;
-    padding-left: 130px;
-    padding-top: 8px;
+div a img {
+  height: 58px;
+  width: 180px;
+  padding-right: 380px;
+  padding-left: 130px;
+  padding-top: 8px;
 }
 nav li {
-    list-style: none;
-    
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    
-}
-.bluebox{
-    height: 50px;
-    width: 290px;
-    background-color: #07bfdb;
-    color: #ffffff;
-    border-radius: 6px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    
+  list-style: none;
 
-    /* border: 2px solid black; */
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.bluebox {
+  height: 50px;
+  width: 290px;
+  background-color: #07bfdb;
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 
+  /* border: 2px solid black; */
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-.box{
-    display: flex;
-    justify-content: center;
+.box {
+  display: flex;
+  justify-content: center;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-    /* row-gap: 25px; */
-
-
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  /* row-gap: 25px; */
 }
-.line{
-    font-size: 25px;
-   width: 995px;
-   text-align:center;
-   padding-bottom: 30px;
+.line {
+  font-size: 25px;
+  width: 995px;
+  text-align: center;
+  padding-bottom: 30px;
 }
-h1 img{
-    height: 38px;
-    width: 130px;
-    cursor: pointer;
+h1 img {
+  height: 38px;
+  width: 130px;
+  cursor: pointer;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 360;
+  padding-top: 60px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+h1,
+h3 {
+  /* line-height: 1.3em; */
+  color: #222222;
+}
+h3 {
+  padding-bottom: 14px;
+}
 
-h1{
-    font-size: 48px;
-    font-weight: 360;
-    padding-top: 60px;
+ul {
+  display: flex;
+  gap: 30px;
 }
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #222;
+nav {
+  display: flex;
 }
-h1,h3{
-    /* line-height: 1.3em; */
-    color: #222222;
+ul li img {
+  height: 48px;
+  width: 50px;
 }
-h3{
-
-    padding-bottom: 14px;
-}
-
-ul{
-    display: flex;
-    gap:30px;
-
-}
-nav{
-    display: flex;
-}
-ul li img{
-height: 48px;
-width: 50px;
-}
-li svg{
-    height: 16px;
+li svg {
+  height: 16px;
 }
 span img {
-height: 65px;
-width: 125px;
-
+  height: 65px;
+  width: 120px;
 }
-span:first-child{
-    font-size: 25px;
-    /* padding-top: 10px; */
-
-    
+.size {
+  font-size: 25px;
 }
 
-.lastline{
-    /* padding-left: 250px;
-    padding-top: 40px; */
-    display: flex;
-   
-    align-items: center;
+.lastline {
+  padding-left: 220px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
 }
